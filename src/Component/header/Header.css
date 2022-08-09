@@ -1,0 +1,13 @@
+.header_container
+{
+    text-align: center;
+
+}
+.header_container h1
+{
+    font-size: 4rem;
+}
+.header_container span
+{
+    color: rgb(193, 187, 187);
+}

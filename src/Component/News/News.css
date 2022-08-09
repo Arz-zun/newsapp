@@ -1,0 +1,30 @@
+.news_container
+{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 1rem;
+    width: 50%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+
+   
+}
+.news_article
+{
+    background: transparent;
+    border-radius: 5%;
+    border: 0.3rem solid var(--color-primary);
+}
+.news_article img
+{
+    width: 20rem;
+    overflow: hidden;
+    border-radius: 10%;
+    margin: 0 auto 1rem;
+    border: 0.1rem solid var(--color-primary-variant);
+}
+.news_article h2,h3,h4,h5
+{
+    /* padding:0 0 1.2rem 1.2rem; */
+    color: var(--color-light)
+}
