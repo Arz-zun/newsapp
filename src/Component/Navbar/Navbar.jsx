@@ -16,8 +16,8 @@ export class Navbar extends Component {
           <li> <Link to="/gallery">Gallery</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           {/* <li> <Link to="/about">About</Link></li> */}
-          <li> <Link to="/test">Test</Link></li>
-          <li> <Link to="/again">API Fetched</Link></li>
+          {/* <li> <Link to="/test">Test</Link></li>
+          <li> <Link to="/again">API Fetched</Link></li> */}
 
         </ul>
         <div className='search'>

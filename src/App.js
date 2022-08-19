@@ -20,21 +20,23 @@ export class App extends Component {
   render() {
     return (
       <>
-      <div>arjun</div>
+      
         <BrowserRouter>
           <Header />
           <Navbar id="navbar"/>
         
           <Routes>
-            <Route exact path="/" element={<News />} />
+            <Route exact path="/" element={<UsersData/>} /> 
+            <Route exact path="/news" element={<News />} />
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/news" element={<News />} />
             <Route exact path="/about" element={<About />} />
+            <Route exact path="/sports" element={<Sports />} />
+            <Route exact path="/politics" element={<Politics />}/>
             {/* <Route exact path="/sports" element={<Sports />} />         
-            <Route exact path="/politics" element={<Politics />} />
+            } />
             <Route exact path="/gallery" element={<Gallery />} /> */}
-            {/* <Route exact path="/test" element={<Game/>} />
-            <Route exact path="/again" element={<UsersData/>} /> */}
+            {/* <Route exact path="/test" element={<Game/>} />*/}
 
           </Routes>
 {/* git new branch */}
