@@ -294,10 +294,10 @@ useEffect(() => {
         return(
           <article className='news_article' key={item.url}>
           <img src={item.urlToImage} alt="" className='news_image' />
-          <h3>1.{item.title}</h3>
-          <h5>2.{item.description}</h5>
-          <h5>3.{item.publishedAt}</h5>
-          <h4>4.{item.author}</h4>
+          <h3>{item.title}</h3>
+          <h5>{item.description}</h5>
+          <h5>{item.publishedAt}</h5>
+          <h4>{item.author}</h4>
       </article>
          )
       })}
